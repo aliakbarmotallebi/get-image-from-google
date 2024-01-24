@@ -1,0 +1,5 @@
+{
+    "require": {
+        "buchin/google-image-grabber": "^1.0"
+    }
+}

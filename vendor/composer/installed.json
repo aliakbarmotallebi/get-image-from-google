@@ -1,0 +1,159 @@
+{
+    "packages": [
+        {
+            "name": "buchin/google-image-grabber",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/buchin/google-image-grabber.git",
+                "reference": "1e257f1b0aeaa17f9f4ea89d60f2e3f7707cb37f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/buchin/google-image-grabber/zipball/1e257f1b0aeaa17f9f4ea89d60f2e3f7707cb37f",
+                "reference": "1e257f1b0aeaa17f9f4ea89d60f2e3f7707cb37f",
+                "shasum": ""
+            },
+            "require": {
+                "campo/random-user-agent": "^1.2",
+                "maciejczyzewski/bottomline": "^0.0.9"
+            },
+            "require-dev": {
+                "kahlan/kahlan": "dev-master"
+            },
+            "time": "2021-10-06T03:28:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Buchin\\GoogleImageGrabber\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mochammad Masbuchin",
+                    "email": "buchin@dropsugar.com"
+                }
+            ],
+            "description": "Scrape google images",
+            "support": {
+                "issues": "https://github.com/buchin/google-image-grabber/issues",
+                "source": "https://github.com/buchin/google-image-grabber/tree/1.0.3"
+            },
+            "install-path": "../buchin/google-image-grabber"
+        },
+        {
+            "name": "campo/random-user-agent",
+            "version": "1.3.0",
+            "version_normalized": "1.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joecampo/random-user-agent.git",
+                "reference": "4a88bd90f66ca398b050b19848e3c6ea143ce8a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joecampo/random-user-agent/zipball/4a88bd90f66ca398b050b19848e3c6ea143ce8a0",
+                "reference": "4a88bd90f66ca398b050b19848e3c6ea143ce8a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0"
+            },
+            "time": "2018-06-13T14:26:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Campo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Campo",
+                    "email": "jcampo@gmail.com"
+                }
+            ],
+            "description": "Generate real random user-agents.",
+            "keywords": [
+                "spoofing user",
+                "user agent",
+                "user agents",
+                "user-agent"
+            ],
+            "support": {
+                "issues": "https://github.com/joecampo/random-user-agent/issues",
+                "source": "https://github.com/joecampo/random-user-agent/tree/master"
+            },
+            "install-path": "../campo/random-user-agent"
+        },
+        {
+            "name": "maciejczyzewski/bottomline",
+            "version": "0.0.9",
+            "version_normalized": "0.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maciejczyzewski/bottomline.git",
+                "reference": "b3d6c4ec2c3eedacf4ab6337cc216149e4af3fb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maciejczyzewski/bottomline/zipball/b3d6c4ec2c3eedacf4ab6337cc216149e4af3fb0",
+                "reference": "b3d6c4ec2c3eedacf4ab6337cc216149e4af3fb0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.0"
+            },
+            "time": "2017-01-05T18:24:44+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bottomline.php"
+                ],
+                "psr-4": {
+                    "__\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maciej A. Czyzewski",
+                    "email": "maciejanthonyczyzewski@gmail.com"
+                }
+            ],
+            "description": "A full-on PHP manipulation utility-belt that provides support for the usual functional.",
+            "keywords": [
+                "__",
+                "bottomline",
+                "functions",
+                "library",
+                "utility"
+            ],
+            "support": {
+                "issues": "https://github.com/maciejczyzewski/bottomline/issues",
+                "source": "https://github.com/maciejczyzewski/bottomline/tree/0.0.9"
+            },
+            "install-path": "../maciejczyzewski/bottomline"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
